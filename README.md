@@ -1,27 +1,10 @@
 # dccleaner
-
 ## ☆주의★
+일정 횟수마다 캡챠가 나타납니다.<br>
+캡챠는 스크립트가 처리할 수 없으므로 직접 캡챠 인증을 하면 작업이 계속 진행됩니다.
 
-~~사용 시 DCINSIDE 측에서 ip 및 계정 차단을 당하는 이슈 발견.~~
-
-~~사용에 주의 부탁드림미다.~~
-
-
-해당 이슈는 타노스 클리너의 이슈로 밝혀졌음.
-
-## 직접 실행
-
-```
-# git, node 깔려있다고 가정함
-
-git clone https://github.com/pangyo95/dccleaner.git
-cd dccleaner
-npm install
-node app.js
-```
-
-## 실행파일
-
-### 윈도우
-
-#### https://github.com/pangyo95/dccleaner/releases
+## 실행 방법
+필요한 프로그램: [node.js](https://nodejs.org/ko/)<br>
+1. 다운로드후 cmd 또는 terminal 실행.<br>
+2. ``node app.js`` 명령어 입력시 실행됨.<br>
+3. 아이디 비밀번호 입력하면 알아서 진행됨. OTP 있는 경우 15초 내로 입력
